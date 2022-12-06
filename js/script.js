@@ -4,6 +4,8 @@ let inputField = document.getElementById('inputField')
 
 addToDoButton.addEventListener('click', function () {
   let paragraph = document.createElement('p')
+  paragraph.classList.add('paragraphStyling')
   paragraph.innerText = inputField.value
   toDoContainer.appendChild(paragraph)
+  inputField.value = ''
 })
