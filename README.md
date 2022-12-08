@@ -4,5 +4,4 @@ user can add a task they'd like to do. By clicking the + button it will add a li
 
 when new item is clicked once a line will be struck through it. when clicked twice it will be deleted. 
 
-Enjoy.
-
+Enjoy!
